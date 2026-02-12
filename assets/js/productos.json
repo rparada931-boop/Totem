@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cuarto de Libra",
+        "precio": 5500,
+        "categoria": "hamburguesa",
+        "imagen": "assets/img/hamburguesa.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Papas Medianas",
+        "precio": 1800,
+        "categoria": "Complementos",
+        "imagen": "assets/img/papas-medianas.jpg"
+    }
+]
