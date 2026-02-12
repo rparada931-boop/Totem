@@ -36,4 +36,5 @@ function actualizarCarrito() {
         total += item.precio;
     });
     totalPago.innerText = total;
+    window.agregarAlPedido = agregarAlPedido;
 }
