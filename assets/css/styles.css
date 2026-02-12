@@ -1,0 +1,52 @@
+body {
+    background-color: #f8f9fa; /* Un tono moderno */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #ffc107; /* Amarillo tipo marca */
+    padding: 20px;
+    text-align: center;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* 3 partes para menú, 1 para carrito */
+    gap: 20px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.grid-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.tarjeta-producto {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+img {
+    width: 100%; /* Ajuste similar a tu lección anterior */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
